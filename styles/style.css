@@ -1,0 +1,116 @@
+/*Clara Moraes Dantas*/
+
+a {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #141414;
+	line-height: 24px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.navbar {
+	position: absolute;
+	width: 100%;
+}
+
+.navbarObj {
+	display: inline-block;
+	margin: 10px;
+	float: right;
+}
+
+img.icon {
+	width: 25px;
+	height: 25px;
+}
+
+img.icon.rightmost {
+	margin-right: 30px;
+}
+
+.center {
+	margin: auto;
+	text-align: center;
+}
+
+img.main {
+	margin-top: 185px;
+	width: 272px;
+	height: 92px;
+}
+
+.searchBar {
+	display: block;
+	width: 500px;
+	height: 30px;
+	margin: auto;
+	margin-top: 14px;
+	margin-bottom: 20px;
+	padding: 3px 5px 0;
+	font-size: 18px;
+	-webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+.buttons {
+	height: 36px;
+	line-height: 27px;
+	-webkit-border-radius: 2px;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	color: #757575;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	min-width: 54px;
+	padding: 0 16px;
+	text-align: center;
+}
+
+.buttons:hover {
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+	background-color: #f8f8f8;
+	border: 1px solid #c6c6c6;
+	color: #222222;
+}
+
+#footer {
+	color: #222222;
+	height: 36px;
+	width: 100%;
+	display: block;
+	line-height: 40px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	position: absolute;
+	bottom: 0;
+}
+
+.footerContLeft {
+	font-family: Arial, sans-serif;
+	color: #666666;
+	margin: 2px 10px 0;
+}
+
+div.footerBlockLeft {
+	display: inline-block;
+	margin: 2px 13px 0;
+}
+
+div.footerBlockRight {
+	display: inline-block;
+	margin: 2px 13px 0;;
+	float: right;
+}
+
+.rightMostFooter {
+	margin-right: 15px;
+}
